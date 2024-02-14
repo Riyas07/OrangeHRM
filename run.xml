@@ -1,0 +1,41 @@
+<suite name="Hrm test" parallel="tests" thread-count="2">
+    <test name="happy path">
+        <classes>
+            <class name="HappyPath"/>
+        </classes>
+    </test>
+    <test name="unhappy">
+        <classes>
+            <class name="UnhappyPath"/>
+        </classes>
+    </test>
+
+</suite>
+
+
+
+<!--
+<suite name="suite test" parallel="tests" thread-count="2">
+    <test name="test1">
+       &lt;!&ndash; <groups>
+            <run>
+                <include name="java"/>
+            </run>
+        </groups>&ndash;&gt;
+        <classes>
+            <class name="sam1"/>
+        </classes>
+    </test>
+    <test name="test2">
+        &lt;!&ndash; <groups>
+             <run>
+                 <include name="java"/>
+             </run>
+         </groups>&ndash;&gt;
+        <classes>
+            <class name="sam2"/>
+        </classes>
+    </test>
+</suite>-->
+
+
