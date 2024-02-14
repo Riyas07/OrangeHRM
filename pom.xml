@@ -39,9 +39,9 @@
                     <version>3.2.5</version>
                     <configuration>
                         <suiteXmlFiles>
-                            <SuiteXmlFile>
+                            <suiteXmlFile>
                                 ${suiteFile}
-                            </SuiteXmlFile>
+                            </suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
                 </plugin>
