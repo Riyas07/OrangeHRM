@@ -40,7 +40,7 @@
                     <configuration>
                         <suiteXmlFiles>
                             <suiteXmlFile>
-                                ${suiteFile}
+                                    ${suiteFile}
                             </suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
